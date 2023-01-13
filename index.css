@@ -9,8 +9,8 @@
 }
 
 p {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-align: justify;
 }
 
@@ -19,6 +19,15 @@ h1 {
     font-size: 75px;
     margin-bottom: 50px;
     margin-top: 50px;
+    animation: h1Colours 2s infinite;
+}
+
+@keyframes h1Colours {
+    0% { color: #ff03dd; }
+    25% { color: #006eff; }
+    50% { color: #03ff74; }
+    75% { color: #ff0000; }
+    100% { color: #ff03dd; }
 }
 
 img {
@@ -72,4 +81,21 @@ body {
 
 footer {
     padding-top: 50px;
+}
+
+.footerButtons {
+    appearance: button;
+}
+
+.topNav {
+    background-color: rgba(228, 176, 205, 0);
+    overflow: hidden;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+#polka {
+    margin-top: 200px;
+    max-width: 700px;
+    min-width: 700px;
 }
