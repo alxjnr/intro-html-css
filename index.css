@@ -36,13 +36,13 @@ img {
 .headingsSmall {
     margin-top: 35px;
     margin-bottom: 35px;
-    animation: listColours 0.5s infinite;
+    animation: listColours 1s infinite;
 }
 
 @keyframes listColours {
-    0% { color: #FFBCBC; }
-    50% { color: #B5EAEA; }
-    100% { color: #FFBCBC; }
+    0% { color: #0329ff; }
+    50% { color: #ff009d; }
+    100% { color: #0329ff; }
 }
 
 .lists {
@@ -62,8 +62,14 @@ li {
 
 main {
     background-color: #EDF6E5;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
 }
 
 body {
     background-color: #FFBCBC;
+}
+
+footer {
+    padding-top: 50px;
 }
